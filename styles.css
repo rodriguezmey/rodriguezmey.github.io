@@ -1,0 +1,29 @@
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    border-bottom: 3px solid black;
+    font-size: 25px;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-picture {
+    width: 300px;
+    padding: 15px;
+    float: right;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 100vw;
+}
